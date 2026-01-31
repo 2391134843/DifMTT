@@ -112,6 +112,7 @@ This work is built upon several excellent medication recommendation research. We
 - [VITA](https://github.com/jhheo0123/VITA) - Visit-level Interaction Transformer for Medication Recommendation (AAAI 2024)
 - [CausalMed](https://github.com/lixiang-222/CausalMed) - Causality-based Medication Recommendation (CIKM 2024)
 - [DrugRec/DEPOT](https://github.com/xmed-lab/DrugRec) - Drug Recommendation with Transformers
+
 .......
 For other recommended medical papers, please feel free to contact me so I can add more relevant papers.
 
