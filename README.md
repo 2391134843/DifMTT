@@ -114,7 +114,8 @@ This work is built upon several excellent medication recommendation research. We
 - [DrugRec/DEPOT](https://github.com/xmed-lab/DrugRec) - Drug Recommendation with Transformers
 
 .......
-For other recommended medical papers, please feel free to contact me so I can add more relevant papers.
+
+For other Recommendation papers, please feel free to contact me so I can add more relevant papers.
 
 
 
