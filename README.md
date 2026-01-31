@@ -3,39 +3,32 @@
 [![Python](https://img.shields.io/badge/Python-3.8+-blue)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-1.12+-red)](https://pytorch.org/)
 
-This repository provides the official PyTorch implementation for the paper:
-
-> **Towards Multi-Treatment Task Learning and Subclass Balancing for Medication Recommendation**
+This repository provides the official PyTorch implementation for the paper:**Towards Multi-Treatment Task Learning and Subclass Balancing for Medication Recommendation.**
 
 
-## Key Features
-
-- **Subclass-Balancing Contrastive Learning (SBCL)**: Addresses class imbalance through bi-granularity contrastive learning with dynamic temperature adjustment
-- **Diffusion-based Generation**: Leverages Gaussian diffusion process for robust medication set generation with multi-modal distribution modeling
-- **DDI-aware Guidance**: Integrates drug-drug interaction awareness during the diffusion sampling process
-- **Multi-Treatment Task Learning**: Captures diverse patient treatment intents for personalized recommendations
-- **Molecular Substructure Encoding**: Uses GNN-based molecular representation learning for drug embeddings
 
 ## Installation
 
 1. Clone this git repository and change directory to this repository:
 
    ```shell
-   git clone https://github.com/your-repo/DifMTT.git
+   git clone https://github.com/2391134843/DifMTT
    cd DifMTT/
    ```
 
 2. A new [conda environment](https://docs.conda.io/projects/conda/en/latest/user-guide/concepts/environments.html) is suggested. 
 
    ```bash
-   conda create --name DifMTT python=3.8
+   conda create --name DifMTT python=3.9
    ```
 
 3. Activate the newly created environment.
 
    ```bash
    conda activate DifMTT
+   pip install -r requirements.txt
    ```
+
 
 
 
@@ -119,11 +112,11 @@ This work is built upon several excellent medication recommendation research. We
 - [VITA](https://github.com/jhheo0123/VITA) - Visit-level Interaction Transformer for Medication Recommendation (AAAI 2024)
 - [CausalMed](https://github.com/lixiang-222/CausalMed) - Causality-based Medication Recommendation (CIKM 2024)
 - [DrugRec/DEPOT](https://github.com/xmed-lab/DrugRec) - Drug Recommendation with Transformers
+.......
+For other recommended medical papers, please feel free to contact me so I can add more relevant papers.
 
-## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Contact
+## 🤝 Contact
 
-If you have any questions, please feel free to open an issue or contact us.
+If you have any questions, please feel free to open an issue or contact us linyuli@stu.pku.edu.cn.
